@@ -197,6 +197,12 @@ hr {
     gap: 10px;
 }
 
+.imagesubtext {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .zoomcursor {
     cursor: zoom-in;
 }
