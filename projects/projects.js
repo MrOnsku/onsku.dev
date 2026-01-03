@@ -171,7 +171,7 @@ const projects = [
                         </p>
                         <p class="center muted trimbottom">Links:</p>
                         <div class="horizontallayout horizontallayoutcenter">
-                            <a href="https://github.com/MrOnsku/karl-source" target="_blank">Source Code (Add me!)</a>
+                            <a href="https://github.com/MrOnsku/onsku.dev" target="_blank">Source Code</a>
                         </div>
                         <br>`
                     }
