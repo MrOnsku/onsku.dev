@@ -5,7 +5,7 @@ document.writeln(`
         <div class="topnav">
             <a href="/" class="navbutton">Home</a>
             <a href="/projects/" class="navbutton">Projects</a>
-            <a href="/" class="navbutton">Gallery</a>
+            <a href="/gallery/" class="navbutton">Gallery</a>
             <a href="/" class="navbutton">Contact</a>
         </div>
     </div>
