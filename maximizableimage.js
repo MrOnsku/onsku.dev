@@ -32,5 +32,5 @@ function minimizeImage(){
 
 document.writeln("<div class=\"maximizedimagebg zoomoutcursor\" onclick=\"minimizeImage()\">");
 document.writeln("<img src=\"\" class=\"center maximizedimage\" onclick=\"minimizeImage()\">");
-document.writeln("<p class=\"imagesubtext\">bals</p>")
+document.writeln("<p class=\"imagesubtext\"></p>")
 document.writeln("</div>");

@@ -29,6 +29,10 @@ const gallery = [
                         "subtext":"Machine Gun Jetpack made in Blender and Substance Painter"
                     },
                     {
+                        "image":"/img/gallery/retroroom.png",
+                        "subtext":"A room with pixelated PBR materials made with Blender and Substance Painter"
+                    },
+                    {
                         "image":"/img/gallery/wendigo.png",
                         "subtext":"Creepy hallway made in Blender and Substance Painter"
                     },
