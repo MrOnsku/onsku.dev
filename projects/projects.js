@@ -108,7 +108,7 @@ const projects = [
                 "sectionContent":[
                     {
                         "name":"DYNAMITEHEAD TNTSON",
-                        "date":"2024 - Present",
+                        "date":"2024",
                         "content":`
                         <p class=\"trimtop\">
                             <i>YO! HIT THE SURF! DYNAMITEHEAD TNTSON is an energetic Beat 'em up side-scroller with wacky cartoony animation, zany humor, and gritty undertones.<br><br>
@@ -137,7 +137,7 @@ const projects = [
                 "sectionName":"Other",
                 "sectionContent":[
                     {
-                        "name":"Karl (Discord Bot)",
+                        "name":"Karl",
                         "date":"2025",
                         "content":`
                         <p class=\"trimtop\">
