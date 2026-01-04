@@ -6,7 +6,7 @@ document.writeln(`
             <a href="/" class="navbutton">Home</a>
             <a href="/projects/" class="navbutton">Projects</a>
             <a href="/gallery/" class="navbutton">Gallery</a>
-            <a href="/" class="navbutton">Contact</a>
+            <a href="/contact/" class="navbutton">Contact</a>
         </div>
     </div>
 </div>`);
