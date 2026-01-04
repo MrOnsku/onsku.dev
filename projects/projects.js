@@ -149,7 +149,7 @@ const projects = [
                         <p class="center muted trimbottom">Links:</p>
                         <div class="horizontallayout horizontallayoutcenter">
                             <a href="https://discord.com/oauth2/authorize?client_id=1391334479930331148" target="_blank">Discord Invite</a>
-                            <a href="https://github.com/MrOnsku/karl-source" target="_blank">Source Code</a>
+                            <a href="https://github.com/MrOnsku/karl" target="_blank">Source Code</a>
                         </div>
                         <br>
                         <button class="collapsible">Images</button>
