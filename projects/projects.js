@@ -143,8 +143,9 @@ const projects = [
                         <p class=\"trimtop\">
                             <i>Your one-stop helper for all things Deep Rock Galactic, Karl!<br><br>
                             Karl is the essential bot for any Deep Rock Galactic oriented Discord server! Karl can also work in DMs! For example, Karl can show details about the ongoing Deep Dives and Daily Deals.</i><br><br>
-                            Karl is a bot for Discord I made with JavaScript and NodeJS using the discord.js module. It's meant for players of Deep Rock Galactic (an online co-op game), who want information on ongoing events in real time straight in their Discord server.<br>
-                            It uses drgapi.com and doublexp.net to get information about the game status in JSON form, then it converts that data to a presentable format that gets sent to Discord!
+                            Karl is a bot for Discord I made with JavaScript and NodeJS using the discord.js module. It's meant for players of Deep Rock Galactic (an online co-op game), who want information on ongoing events in real time straight in their Discord server.
+                            It uses drgapi.com and doublexp.net to get information about the game status in JSON form, then it converts that data to a presentable format that gets sent to Discord!<br><br>
+                            Karl can also be run in a Docker container.<br>Just run <code>"docker pull ghcr.io/mronsku/karl:latest"</code> in your CLI of choice. GitHub Actions automates the creation of the Dockerimage after every commit for convenience.
                         </p>
                         <p class="center muted trimbottom">Links:</p>
                         <div class="horizontallayout horizontallayoutcenter">
