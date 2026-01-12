@@ -1,7 +1,7 @@
 document.writeln(`
 <div class="topheader">
     <div class="topheadercontent">
-        <p class="logo"><strong>onsku.dev</strong></p>
+        <img src="/img/icon.png" class="logo">
         <div class="topnav">
             <a href="/" class="navbutton">Home</a>
             <a href="/projects/" class="navbutton">Projects</a>
