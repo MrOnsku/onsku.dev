@@ -108,22 +108,28 @@ const projects = [
                 "sectionContent":[
                     {
                         "name":"DYNAMITEHEAD TNTSON",
-                        "date":"2024",
+                        "date":"2026",
                         "content":`
                         <p class=\"trimtop\">
                             <i>YO! HIT THE SURF! DYNAMITEHEAD TNTSON is an energetic Beat 'em up side-scroller with wacky cartoony animation, zany humor, and gritty undertones.<br><br>
-                            One day, DynamiteHead receives a message from DIAL-M, saying there's trouble in the Toxic Trenches. Some chit-chatting later, and it turns out FRANKENBARF's out for absolute DESTRUCTION! Finding out how much the mission pays, DynamiteHead goes headfirst into explosive action. THAT'LL SHOW 'EM!</i><br><br>
-                            I've been working on this game with a group of friends ever since it's creation in 2024, I've contributed code, design and animation among other things to the project. I've been helping out swackyGCF (the lead creator of this project and a long time friend of mine) with a little bit of everything ever since he pitched this idea to me all the way back in 2024.<br><br>
-                            Below you can find a link where you can check out the demo for the game on itch.io, the source code is also available there.
+                            Lanky Larry, head of the "Smile :)" cartel, and his pesky henchmen decided to hijack the entirety of Groovy Graveyard. EVERYONE'S INVITED! DIAL-M (DynamiteHead's sentient phone buddy, always on the lookout) forwards this info towards our eponymous bounty hunter, and before you know it - They're both in for the deal.</i><br><br>
+                            I've been working on this game with a group of friends ever since it's creation in 2024, I've contributed code, design and animation among other things to the project. I've been helping out swackyGCF (the lead creator of this project and a friend of mine) with a little bit of everything ever since the project's inception.<br><br>
+                            Below you can find a link where you can check out both of the demos for the game on itch.io as well as a link to the source code. I recommend the second demo though, it's way more recent and more polished.
                         </p>
                         <p class="center muted trimbottom">Links:</p>
                         <div class="horizontallayout horizontallayoutcenter">
-                            <a href="https://swackygcf.itch.io/dynamitehead-tntson" target="_blank">itch.io Link</a>
+                            <a href="https://swackygcf.itch.io/dynamitehead-tntson" target="_blank">Demo 1 (itch.io)</a>
+                            <a href="https://swackygcf.itch.io/dynamitehead-tntson-the-groovy-demo" target="_blank">Demo 2 (itch.io)</a>
+                            <a href="https://github.com/theswackgcf/dynamitehead_tntson_groovy_demo_source/tree/main" target="_blank">Source Code</a>
                         </div>
                         <br>
                         <button class="collapsible">Screenshots</button>
                         <div class="collapsiblecontent">
                             <div class="horizontallayout horizontalscroll rounded">
+                                <img class="trimbottom zoomcursor" src="/img/dynamitehead/dynamitehead5.png" width="320" height="180" onclick="maximizeImage(this)">
+                                <img class="trimbottom zoomcursor" src="/img/dynamitehead/dynamitehead6.png" width="320" height="180" onclick="maximizeImage(this)">
+                                <img class="trimbottom zoomcursor" src="/img/dynamitehead/dynamitehead7.png" width="320" height="180" onclick="maximizeImage(this)">
+                                <img class="trimbottom zoomcursor" src="/img/dynamitehead/dynamitehead8.png" width="320" height="180" onclick="maximizeImage(this)">
                                 <img class="trimbottom zoomcursor" src="/img/dynamitehead/dynamitehead1.png" width="320" height="180" onclick="maximizeImage(this)">
                                 <img class="trimbottom zoomcursor" src="/img/dynamitehead/dynamitehead2.png" width="320" height="180" onclick="maximizeImage(this)">
                                 <img class="trimbottom zoomcursor" src="/img/dynamitehead/dynamitehead3.png" width="320" height="180" onclick="maximizeImage(this)">
