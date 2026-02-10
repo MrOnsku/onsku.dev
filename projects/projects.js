@@ -169,6 +169,49 @@ const projects = [
                         </div>`
                     },
                     {
+                        "name":"Raylib Minecraft Clone",
+                        "date":"2025",
+                        "content":`
+                        <p class=\"trimtop\">
+                            A Minecraft clone made with C# using the Raylib library.<br><br>
+                            Features a randomly generated map made out of chunks that can be modified by the player by mining and building. Also has a modular system for adding new block types.
+                        </p>
+                        <p class="center muted trimbottom">Links:</p>
+                        <div class="horizontallayout horizontallayoutcenter">
+                            <a href="https://github.com/MrOnsku/raycraft" target="_blank">Source Code</a>
+                        </div>
+                        <br>
+                        <button class="collapsible">Images</button>
+                        <div class="collapsiblecontent">
+                            <div class="horizontallayout horizontalscroll rounded">
+                                <img class="trimbottom zoomcursor" src="/img/raycraft/raycraft3.png" width="320" height="180" onclick="maximizeImage(this)">
+                                <img class="trimbottom zoomcursor" src="/img/raycraft/raycraft4.png" width="320" height="180" onclick="maximizeImage(this)">
+                                <img class="trimbottom zoomcursor" src="/img/raycraft/raycraft1.png" width="320" height="180" onclick="maximizeImage(this)">
+                                <img class="trimbottom zoomcursor" src="/img/raycraft/raycraft2.png" width="320" height="180" onclick="maximizeImage(this)">
+                            </div>
+                        </div>`
+                    },
+                    {
+                        "name":"Voxel Planet Engine",
+                        "date":"2025",
+                        "content":`
+                        <p class=\"trimtop\">
+                            A project I was working on in Unity where you explore procedurally generated planets that are fully destructible.<br><br>
+                            The planets consist of "chunks" that are 3D arrays where every index is a value from 0 to 1. This value dictates the density of ground in that position. After that, a meshing algorithm called Marching Cubes is ran on the chunks to turn the array into a physical 3D mesh. Think of it like Minecraft but the cubes are smoothed into a natural shape.<br><br>
+                            This allows for complex land formations such as caves and overhangs to be generated, this also makes modifying the terrain at runtime easy.
+                        </p>
+                        <br>
+                        <button class="collapsible">Images</button>
+                        <div class="collapsiblecontent">
+                            <div class="horizontallayout horizontalscroll rounded">
+                                <img class="trimbottom zoomcursor" src="/img/voxel/voxel1.gif" width="320" height="180" onclick="maximizeImage(this)">
+                                <img class="trimbottom zoomcursor" src="/img/voxel/voxel2.png" width="320" height="180" onclick="maximizeImage(this)">
+                                <img class="trimbottom zoomcursor" src="/img/voxel/voxel3.png" width="320" height="180" onclick="maximizeImage(this)">
+                                <img class="trimbottom zoomcursor" src="/img/voxel/voxel4.png" width="320" height="180" onclick="maximizeImage(this)">
+                            </div>
+                        </div>`
+                    },
+                    {
                         "name":"onsku.dev",
                         "date":"2026",
                         "content":`

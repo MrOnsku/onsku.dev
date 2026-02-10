@@ -150,6 +150,7 @@ button:hover {
     padding-right: 10px;
     transition-duration: 0.2s;
     margin-bottom: 10px;
+    padding-top: 3px;
 }
 
 .collapsible:after {
