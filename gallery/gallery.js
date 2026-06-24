@@ -5,32 +5,44 @@ const gallery = [
                 "sectionName":"3D Art",
                 "sectionContent":[
                     {
-                        "image":"/img/gallery/pfp.png",
-                        "subtext":"Profile picture made in Blender"
-                    },
-                    {
-                        "image":"/img/gallery/abstract.png",
-                        "subtext":"Abstract desktop background made in Blender"
+                        "image":"/img/gallery/house.png",
+                        "subtext":"Medieval house made in Blender"
                     },
                     {
                         "image":"/img/gallery/lc.png",
                         "subtext":"Abandoned facility made in Blender"
                     },
                     {
-                        "image":"/img/gallery/swack.png",
-                        "subtext":"Low poly character made in Blender"
+                        "image":"/img/gallery/MGJP.png",
+                        "subtext":"Machine Gun Jetpack made in Blender and Substance Painter"
                     },
                     {
                         "image":"/img/gallery/claytobi.png",
                         "subtext":"Clay character made in Blender"
                     },
                     {
-                        "image":"/img/gallery/MGJP.png",
-                        "subtext":"Machine Gun Jetpack made in Blender and Substance Painter"
+                        "image":"/img/gallery/dynamitehead.png",
+                        "subtext":"A model of DynamiteHead made in Blender"
+                    },
+                    {
+                        "image":"/img/gallery/swack.png",
+                        "subtext":"Low poly character made in Blender"
+                    },
+                    {
+                        "image":"/img/gallery/pfp.png",
+                        "subtext":"Profile picture made in Blender"
+                    },
+                    {
+                        "image":"/img/gallery/barrel.png",
+                        "subtext":"The Highly Volatile Explosive Barrel™ textured in Substance Painter"
                     },
                     {
                         "image":"/img/gallery/retroroom.png",
                         "subtext":"A room with pixelated PBR materials made with Blender and Substance Painter"
+                    },
+                    {
+                        "image":"/img/gallery/abstract.png",
+                        "subtext":"Abstract desktop background made in Blender"
                     },
                     {
                         "image":"/img/gallery/wendigo.png",
