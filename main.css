@@ -378,6 +378,38 @@ button:hover {
     visibility: visible;
 }
 
+.sweepercontainer {
+    display: flex;
+    justify-content: center;
+    row-gap: 0px;
+    flex-direction: unset;
+    flex-flow: wrap;
+}
+
+.sweepertile {
+    all: unset;
+    flex: auto;
+    margin: 0px;
+    color: #ffffff;
+    background-color: #C0C0C0;
+    border-style: outset;
+    border-width: 7px;
+    width: 50px;
+    height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    cursor: pointer;
+}
+
+.sweepertile:hover {
+    color: #ffffff;
+    background-color: #C0C0C0;
+}
+
+.sweepertilebreak {
+    flex-basis: 100%;
+}
+
 @media (max-width: 600px) or (pointer: coarse) {
     .title {
         font-size: 50px;
