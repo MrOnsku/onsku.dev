@@ -390,7 +390,7 @@ button:hover {
     all: unset;
     flex: auto;
     margin: 0px;
-    color: #ffffff;
+    border-color: #ffffff;
     background-color: #C0C0C0;
     border-style: outset;
     border-width: 7px;
@@ -399,11 +399,28 @@ button:hover {
     max-width: 50px;
     max-height: 50px;
     cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 45px;
+    display: flex;
+}
+
+.sweepertilerevealed {
+    border-style: inset;
+    border-color: #b8b8b8;
+    background-color: #a5a5a5;
 }
 
 .sweepertile:hover {
-    color: #ffffff;
+    border-color: #ffffff;
     background-color: #C0C0C0;
+}
+
+.sweepertilerevealed:hover {
+    border-color: #b8b8b8;
+    background-color: #a5a5a5;
 }
 
 .sweepertilebreak {
