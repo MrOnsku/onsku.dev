@@ -17,7 +17,7 @@ const projects = [
                         <p class=\"trimtop\">
                             <i>Keep it clean!<br><br>
                             Clean the forest of trash and plant new trees while also purging the invasive species that is spreading at a rapid pace! Can you make it to the end of the day and restore the forest to its former self while keeping the infestation at bay?</i><br><br>
-                            Forest Keepers is a local couch co-op game that was made in 20 hours over the span of 3 days during the Taitaja2026 Finals. I made the game with my friend who worked on the visual side of things while I did the programming, the game production category consisted of 16 individual finalists competing as pairs of 8. <b>We ended up winning and getting first place in the competition!</b>
+                            Forest Keepers is a local couch co-op game that was made in 20 hours over the span of 3 days during the Taitaja2026 Finals. I made the game with my friend who worked on the visual side of things while I did the programming, the game production category consisted of 16 individual finalists competing as pairs of 2. <b>We ended up winning and getting first place in the competition!</b>
                         </p>
                         <p class="center muted trimbottom">Links:</p>
                         <div class="horizontallayout horizontallayoutcenter">
