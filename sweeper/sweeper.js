@@ -112,8 +112,14 @@ function UpdateBoard(){
 
 function RevealTile(x, y){
     console.log("reveal " + x + " " + y);
-    boardData[y][x].revealed = true;
+    FloodFill(x, y);
     UpdateBoard();
+}
+
+function FloodFill(x, y){
+    let curTile = boardData[y][x];
+    curTile.revealed = true;
+    
 }
 
 console.log(boardData);

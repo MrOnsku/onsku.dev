@@ -5,8 +5,44 @@ const projects = [
                 "sectionName":"Games",
                 "sectionContent":[
                     {
+                        "name":"Forest Keepers",
+                        "date":"2026",
+                        "funfacts":[
+                            "Small Game",
+                            "Unity",
+                            "Collaborative",
+                            "Time Restriction",
+                        ],
+                        "content":`
+                        <p class=\"trimtop\">
+                            <i>Keep it clean!<br><br>
+                            Clean the forest of trash and plant new trees while also purging the invasive species that is spreading at a rapid pace! Can you make it to the end of the day and restore the forest to its former self while keeping the infestation at bay?</i><br><br>
+                            Forest Keepers is a local couch co-op game that was made in 20 hours over the span of 3 days during the Taitaja2026 Finals. I made the game with my friend who worked on the visual side of things while I did the programming, the game production category consisted of 16 individual finalists competing as pairs of 8. <b>We ended up winning and getting first place in the competition!</b>
+                        </p>
+                        <p class="center muted trimbottom">Links:</p>
+                        <div class="horizontallayout horizontallayoutcenter">
+                            <a href="https://taitaja2026ao.itch.io/forest-keepers" target="_blank">Itch.io</a>
+                            <a href="https://taitaja.fi/wp-content/uploads/2026/05/Taitaja2026_tulokset_korjattu.pdf#page=11" target="_blank">Results</a>
+                        </div>
+                        <br>
+                        <button class="collapsible">Screenshots</button>
+                        <div class="collapsiblecontent">
+                            <div class="horizontallayout horizontalscroll rounded">
+                                <img class="trimbottom zoomcursor" src="/img/taitaja26/taitaja261.png" width="320" height="180" onclick="maximizeImage(this)">
+                                <img class="trimbottom zoomcursor" src="/img/taitaja26/taitaja262.png" width="320" height="180" onclick="maximizeImage(this)">
+                                <img class="trimbottom zoomcursor" src="/img/taitaja26/taitaja263.png" width="320" height="180" onclick="maximizeImage(this)">
+                            </div>
+                        </div>`
+                    },
+                    {
                         "name":"Vertigo",
                         "date":"2025",
+                        "funfacts":[
+                            "Medium Game",
+                            "Unity",
+                            "Collaborative",
+                            "Open-Source"
+                        ],
                         "content":`
                         <p class=\"trimtop\">
                             <i>Break out. Gun up. Climb on.<br><br>
@@ -32,6 +68,12 @@ const projects = [
                     {
                         "name":"Heated Havoc",
                         "date":"2024",
+                        "funfacts":[
+                            "Small Game",
+                            "Unity",
+                            "Game Jam",
+                            "Open-Source",
+                        ],
                         "content":`
                         <p class=\"trimtop\">
                             <i>Will you be able to climb to the top in time?<br><br>
@@ -56,6 +98,12 @@ const projects = [
                     {
                         "name":"Head Space",
                         "date":"2023",
+                        "funfacts":[
+                            "Small Game",
+                            "Unity",
+                            "Game Jam",
+                            "Open-Source",
+                        ],
                         "content":`
                         <p class=\"trimtop\">
                             <i>How much emotional damage can you handle?<br><br>
@@ -80,6 +128,12 @@ const projects = [
                     {
                         "name":"Spida the Dizzy Spider",
                         "date":"2023",
+                        "funfacts":[
+                            "Tiny Game",
+                            "GameMaker",
+                            "Game Jam",
+                            "Open-Source",
+                        ],
                         "content":`
                         <p class=\"trimtop\">
                             <i>Fall through space and dash into as many enemies as you can!<br><br>
@@ -109,6 +163,13 @@ const projects = [
                     {
                         "name":"DYNAMITEHEAD TNTSON",
                         "date":"2026",
+                        "funfacts":[
+                            "Big Game",
+                            "GameMaker",
+                            "Highly Collaborative",
+                            "Open-Source",
+                            "In Development",
+                        ],
                         "content":`
                         <p class=\"trimtop\">
                             <i>YO! HIT THE SURF! DYNAMITEHEAD TNTSON is an energetic Beat 'em up side-scroller with wacky cartoony animation, zany humor, and gritty undertones.<br><br>
@@ -145,6 +206,12 @@ const projects = [
                     {
                         "name":"Karl",
                         "date":"2025",
+                        "funfacts":[
+                            "Utility App",
+                            "Node.js",
+                            "Backend",
+                            "Open-Source",
+                        ],
                         "content":`
                         <p class=\"trimtop\">
                             <i>Your one-stop helper for all things Deep Rock Galactic, Karl!<br><br>
@@ -171,6 +238,12 @@ const projects = [
                     {
                         "name":"Raylib Minecraft Clone",
                         "date":"2025",
+                        "funfacts":[
+                            "Prototype",
+                            "Raylib-cs",
+                            "No Engine",
+                            "Open-Source",
+                        ],
                         "content":`
                         <p class=\"trimtop\">
                             A Minecraft clone made with C# using the Raylib library.<br><br>
@@ -194,6 +267,11 @@ const projects = [
                     {
                         "name":"Voxel Planet Engine",
                         "date":"2025",
+                        "funfacts":[
+                            "Prototype",
+                            "Unity",
+                            "Open-Source"
+                        ],
                         "content":`
                         <p class=\"trimtop\">
                             A project I was working on in Unity where you explore procedurally generated planets that are fully destructible.<br><br>
@@ -214,6 +292,13 @@ const projects = [
                     {
                         "name":"onsku.dev",
                         "date":"2026",
+                        "funfacts":[
+                            "Website",
+                            "HTML",
+                            "CSS",
+                            "JavaScript",
+                            "Open-Source"
+                        ],
                         "content":`
                         <p class=\"trimtop\">
                             <i>The website you're currently viewing!</i><br><br>

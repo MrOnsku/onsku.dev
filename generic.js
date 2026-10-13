@@ -50,6 +50,19 @@ for(let i = 0; i < coll.length; i++){
     });
 }
 
+//fade on scroll
+window.addEventListener('scroll', function(){
+    const fadeElement = document.querySelector('.fadeonscroll');
+    if(fadeElement){
+        if(window.scrollY > 0){
+            fadeElement.classList.add('scrolled');
+        }
+        else{
+            fadeElement.classList.remove('scrolled');
+        }
+    }
+});
+
 //footer stuff
 const byhumansStrings = [
     "Website by humans, for humans",

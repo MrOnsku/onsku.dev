@@ -7,9 +7,10 @@ body {
     flex-direction: column;
     font-family: "Chakra Petch", sans-serif;
     font-size: 21px;
-    background-image: url("img/lines.png"), linear-gradient(rgb(5, 0, 0), rgb(39, 0, 0));
-    background-repeat: repeat;
-    background-size: 512px;
+    background-attachment: scroll, fixed;
+    background-image: url("img/lines.png"), linear-gradient(to bottom, rgb(5, 0, 0), rgb(65, 0, 0));
+    background-repeat: repeat, no-repeat;
+    background-size: 512px, 100% 100%;
     color: white;
     margin: 0;
     padding: 0;
@@ -25,13 +26,18 @@ a {
     text-decoration: none;
     font-weight: normal;
     text-shadow: 0px 0px 0px red;
+    text-decoration: none;
+    text-underline-offset: 0px;
+    text-decoration-thickness: 0px;
     transition-duration: 0.2s;
 }
 
 a:hover {
     color: rgb(255, 0, 0);
-    text-shadow: 0px 0px 9px red;
     font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
     transition-duration: 0.2s;
 }
 
@@ -109,6 +115,15 @@ button {
 button:hover {
     background-color: rgba(109, 109, 109, 0.55);
     transition-duration: 0.1s;
+}
+
+.flex {
+    display: flex;
+}
+
+.absolutebottom {
+    position: absolute;
+    bottom: 0;
 }
 
 .navbutton {
@@ -229,6 +244,10 @@ button:hover {
     font-size: 80px;
 }
 
+.smalltext {
+    font-size: 25px;
+}
+
 .footer {
     background-image: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 0.5));
     margin: 0px;
@@ -249,6 +268,24 @@ button:hover {
 
 .projectdate {
     padding-bottom: 5px;
+}
+
+.projectfunfactscontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.projectfunfact {
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    padding: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-right: 6px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
 
 .maximizedimagebg {
@@ -370,12 +407,25 @@ button:hover {
     margin: auto;
 }
 
+.automargintop {
+    margin-top: auto;
+}
+
 .hidden .imagesubtext {
     visibility: hidden;
 }
 
 .visible .imagesubtext {
     visibility: visible;
+}
+
+.fadeonscroll {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.fadeonscroll.scrolled {
+    opacity: 0;
 }
 
 .sweepercontainer {
@@ -425,6 +475,19 @@ button:hover {
 
 .sweepertilebreak {
     flex-basis: 100%;
+}
+
+.bounce {
+    animation: bounce 2s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+}
+
+ @keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
 }
 
 @media (max-width: 600px) or (pointer: coarse) {
