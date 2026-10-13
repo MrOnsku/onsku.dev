@@ -273,6 +273,7 @@ button:hover {
 .projectfunfactscontainer {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .projectfunfact {
