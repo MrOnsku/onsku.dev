@@ -41,6 +41,29 @@ a:hover {
     transition-duration: 0.2s;
 }
 
+.linkdontexpand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    text-decoration: none;
+    font-weight: normal;
+    text-shadow: 0px 0px 0px red;
+    text-decoration: none;
+    text-underline-offset: 0px;
+    text-decoration-thickness: 0px;
+    transition-duration: 0.2s;
+}
+
+.linkdontexpand:hover {
+    color: rgb(255, 0, 0);
+    font-weight: normal;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+    transition-duration: 0.2s;
+}
+
 hr {
     color: rgb(255, 255, 255, 0.5);
 }
@@ -119,6 +142,10 @@ button:hover {
 
 .flex {
     display: flex;
+}
+
+.inline {
+    display: inline;
 }
 
 .absolutebottom {
