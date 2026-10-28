@@ -5,6 +5,10 @@ const gallery = [
                 "sectionName":"3D Art",
                 "sectionContent":[
                     {
+                        "image":"/img/gallery/lada.png",
+                        "subtext":"A Lada 1200 (VAZ-2101) modeled in Blender and textured in Substance Painter"
+                    },
+                    {
                         "image":"/img/gallery/house.png",
                         "subtext":"Medieval house made in Blender"
                     },

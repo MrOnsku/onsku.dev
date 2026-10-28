@@ -57,11 +57,14 @@ a:hover {
 
 .linkdontexpand:hover {
     color: rgb(255, 0, 0);
-    font-weight: normal;
     text-decoration: underline;
     text-underline-offset: 3px;
     text-decoration-thickness: 2px;
     transition-duration: 0.2s;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 hr {
