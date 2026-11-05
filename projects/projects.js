@@ -5,6 +5,7 @@ const projects = [
                 "sectionName":"Games",
                 "sectionContent":[
                     {
+                        "id": "forest-keepers",
                         "name":"Forest Keepers",
                         "date":"2026",
                         "funfacts":[
@@ -35,6 +36,7 @@ const projects = [
                         </div>`
                     },
                     {
+                        "id": "vertigo",
                         "name":"Vertigo",
                         "date":"2025",
                         "funfacts":[
@@ -66,6 +68,7 @@ const projects = [
                         </div>`
                     },
                     {
+                        "id": "heated-havoc",
                         "name":"Heated Havoc",
                         "date":"2024",
                         "funfacts":[
@@ -96,6 +99,7 @@ const projects = [
                         </div>`
                     },
                     {
+                        "id": "head-space",
                         "name":"Head Space",
                         "date":"2023",
                         "funfacts":[
@@ -126,6 +130,7 @@ const projects = [
                         </div>`
                     },
                     {
+                        "id": "spida-the-dizzy-spider",
                         "name":"Spida the Dizzy Spider",
                         "date":"2023",
                         "funfacts":[
@@ -161,6 +166,7 @@ const projects = [
                 "sectionName":"Collaborations",
                 "sectionContent":[
                     {
+                        "id": "dynamitehead-tntson",
                         "name":"DYNAMITEHEAD TNTSON",
                         "date":"2026",
                         "funfacts":[
@@ -204,6 +210,7 @@ const projects = [
                 "sectionName":"Other",
                 "sectionContent":[
                     {
+                        "id": "karl",
                         "name":"Karl",
                         "date":"2025",
                         "funfacts":[
@@ -236,6 +243,7 @@ const projects = [
                         </div>`
                     },
                     {
+                        "id": "raycraft",
                         "name":"Raylib Minecraft Clone",
                         "date":"2025",
                         "funfacts":[
@@ -265,6 +273,7 @@ const projects = [
                         </div>`
                     },
                     {
+                        "id": "voxel-planet-engine",
                         "name":"Voxel Planet Engine",
                         "date":"2025",
                         "funfacts":[
@@ -290,6 +299,7 @@ const projects = [
                         </div>`
                     },
                     {
+                        "id": "onsku-dev",
                         "name":"onsku.dev",
                         "date":"2026",
                         "funfacts":[

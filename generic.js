@@ -50,6 +50,12 @@ for(let i = 0; i < coll.length; i++){
     });
 }
 
+//project links
+async function copyProjectLink(id){
+    const url = window.location.origin + window.location.pathname + "#" + encodeURIComponent(id);
+    await navigator.clipboard.writeText(url);
+}
+
 //fade on scroll
 window.addEventListener('scroll', function(){
     const fadeElement = document.querySelector('.fadeonscroll');

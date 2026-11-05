@@ -294,6 +294,8 @@ button:hover {
     gap: 10px;
     transform-origin: left bottom;
     scale: 0.9;
+    width: calc(100% / 0.9); 
+    box-sizing: border-box;
 }
 
 .projectdate {
@@ -376,8 +378,20 @@ button:hover {
     cursor: zoom-out;
 }
 
+.transparent {
+    background-color: #ffffff00;
+}
+
+.transparent:hover {
+    background-color: #ffffff00;
+}
+
 .muted {
     color: rgba(255, 255, 255, 0.5);
+}
+
+.svgmuted {
+    opacity: 0.5;
 }
 
 .hidden {
@@ -405,6 +419,14 @@ button:hover {
 
 .fulltrimbottom {
     margin-bottom: 0px;
+}
+
+.alignright {
+    margin-left: auto;
+}
+
+.nopadding {
+    padding: 0%;
 }
 
 .topheadermargin {
