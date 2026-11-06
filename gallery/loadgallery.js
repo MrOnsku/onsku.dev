@@ -8,7 +8,7 @@ for (let i = 0; i < gallery[0].sections.length; i++) {
         let art = section.sectionContent[j];
 
         document.writeln("<div class=\"galleryimage\">");
-        document.writeln("<img src=\"" + art.image + "\" class=\"zoomcursor\" subtext=\"" + art.subtext + "\" onclick=\"maximizeImage(this)\">");
+        document.writeln("<img src=\"" + art.image + "\"" + "alt=\"" + art.subtext + "\" class=\"zoomcursor\" subtext=\"" + art.subtext + "\" onclick=\"maximizeImage(this)\">");
         document.writeln("</div>");
     }
 

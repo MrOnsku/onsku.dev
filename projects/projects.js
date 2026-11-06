@@ -89,9 +89,10 @@ const projects = [
                             <a href="https://github.com/MrOnsku/heatedhavoc-source" target="_blank">Source Code</a>
                         </div>
                         <br>
-                        <button class="collapsible">Screenshots</button>
+                        <button class="collapsible">Trailer & Screenshots</button>
                         <div class="collapsiblecontent">
                             <div class="horizontallayout horizontalscroll rounded">
+                                <iframe width="320" height="180" src="https://www.youtube.com/embed/eMOw3zv6ey4?si=hrH4o94X6ZjXsTJ7" frameborder="0" allowfullscreen></iframe>
                                 <img class="trimbottom zoomcursor" src="/img/heatedhavoc/heatedhavoc1.png" width="320" height="180" onclick="maximizeImage(this)">
                                 <img class="trimbottom zoomcursor" src="/img/heatedhavoc/heatedhavoc2.png" width="320" height="180" onclick="maximizeImage(this)">
                                 <img class="trimbottom zoomcursor" src="/img/heatedhavoc/heatedhavoc3.png" width="320" height="180" onclick="maximizeImage(this)">
@@ -120,9 +121,10 @@ const projects = [
                             <a href="https://github.com/MrOnsku/headspace-source" target="_blank">Source Code</a>
                         </div>
                         <br>
-                        <button class="collapsible">Screenshots</button>
+                        <button class="collapsible">Trailer & Screenshots</button>
                         <div class="collapsiblecontent">
                             <div class="horizontallayout horizontalscroll rounded">
+                                <iframe width="320" height="180" src="https://www.youtube.com/embed/3wMUiv_6hFU?si=X_15BBEjYcYHevs0" frameborder="0" allowfullscreen></iframe>
                                 <img class="trimbottom zoomcursor" src="/img/headspace/headspace1.png" width="320" height="180" onclick="maximizeImage(this)">
                                 <img class="trimbottom zoomcursor" src="/img/headspace/headspace2.png" width="320" height="180" onclick="maximizeImage(this)">
                                 <img class="trimbottom zoomcursor" src="/img/headspace/headspace3.png" width="320" height="180" onclick="maximizeImage(this)">
@@ -151,9 +153,10 @@ const projects = [
                             <a href="https://github.com/MrOnsku/spida-source" target="_blank">Source Code</a>
                         </div>
                         <br>
-                        <button class="collapsible">Screenshots</button>
+                        <button class="collapsible">Trailer & Screenshots</button>
                         <div class="collapsiblecontent">
                             <div class="horizontallayout horizontalscroll rounded">
+                                <iframe width="640" height="320" src="https://www.youtube.com/embed/RoSVMGHa9Es?si=FMg_gFHxZuiSS-2Q" frameborder="0" allowfullscreen></iframe>
                                 <img class="trimbottom zoomcursor" src="/img/spida/spida1.gif" width="320" height="320" onclick="maximizeImage(this)">
                                 <img class="trimbottom zoomcursor" src="/img/spida/spida2.jpg" width="320" height="320" onclick="maximizeImage(this)">
                                 <img class="trimbottom zoomcursor" src="/img/spida/spida3.jpg" width="320" height="320" onclick="maximizeImage(this)">
@@ -190,9 +193,11 @@ const projects = [
                             <a href="https://github.com/theswackgcf/dynamitehead_tntson_groovy_demo_source/tree/main" target="_blank">Source Code</a>
                         </div>
                         <br>
-                        <button class="collapsible">Screenshots</button>
+                        <button class="collapsible">Trailers & Screenshots</button>
                         <div class="collapsiblecontent">
                             <div class="horizontallayout horizontalscroll rounded">
+                                <iframe width="320" height="180" src="https://www.youtube.com/embed/uhD_7R7zv-E?si=17AiUBHXJEhrnDHw" frameborder="0" allowfullscreen></iframe>
+                                <iframe width="320" height="180" src="https://www.youtube.com/embed/vNuGACeFl7s?si=kobqYzcluGGVLrJ7" frameborder="0" allowfullscreen></iframe>
                                 <img class="trimbottom zoomcursor" src="/img/dynamitehead/dynamitehead5.png" width="320" height="180" onclick="maximizeImage(this)">
                                 <img class="trimbottom zoomcursor" src="/img/dynamitehead/dynamitehead6.png" width="320" height="180" onclick="maximizeImage(this)">
                                 <img class="trimbottom zoomcursor" src="/img/dynamitehead/dynamitehead7.png" width="320" height="180" onclick="maximizeImage(this)">
