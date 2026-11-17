@@ -20,6 +20,14 @@ const gallery = [
                         "image":"/img/gallery/MGJP.png",
                         "subtext":"Machine Gun Jetpack made in Blender and Substance Painter"
                     },
+		            {
+                        "image":"/img/gallery/cone.png",
+                        "subtext":"Traffic cone prop made in Blender and Substance Painter"
+                    },
+		            {
+                        "image":"/img/gallery/astronaut.png",
+                        "subtext":"Stylized astronaut model made in Blender"
+                    },
                     {
                         "image":"/img/gallery/claytobi.png",
                         "subtext":"Clay character made in Blender"
